@@ -7,13 +7,36 @@ public class PlayerDataSO : ScriptableObject
 {
     [SerializeField] private int score;
 
-    [SerializeField] private int musicVolume;
+    public float musicVolume;
 
-    [SerializeField] private int soundVolume;
+     public float soundVolume;
 
-    [SerializeField] private bool isMusicOn;
+    public bool isMusicOn;
 
-    [SerializeField] private bool isSoundOn;
+    public bool isSoundOn;
+
+    [SerializeField] private int coin;
+
+    public void SetScore(int newScore)
+    {
+        score = newScore;
+    }
+
+    public int GetScore()
+    {
+        return score;
+    }
+
+    public void SetCoin(int coinCount)
+    {
+        coin=coinCount;
+    }
+
+    public int GetCoin()
+    {
+        return coin;
+    }
+
 
 
 }

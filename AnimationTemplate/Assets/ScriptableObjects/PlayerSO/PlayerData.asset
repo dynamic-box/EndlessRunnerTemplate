@@ -12,3 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08297fbb276988b4b995378c4276ace3, type: 3}
   m_Name: PlayerData
   m_EditorClassIdentifier: 
+  score: 0
+  musicVolume: 0
+  soundVolume: 0.8589691
+  isMusicOn: 0
+  isSoundOn: 0
+  coin: 0
