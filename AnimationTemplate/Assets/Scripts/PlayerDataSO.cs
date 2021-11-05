@@ -17,6 +17,8 @@ public class PlayerDataSO : ScriptableObject
 
     [SerializeField] private int coin;
 
+    public int currentSelectedItemIndex;
+
     public void SetScore(int newScore)
     {
         score = newScore;
