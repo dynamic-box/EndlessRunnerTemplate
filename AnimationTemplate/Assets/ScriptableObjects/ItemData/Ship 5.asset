@@ -9,13 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08297fbb276988b4b995378c4276ace3, type: 3}
-  m_Name: PlayerData
+  m_Script: {fileID: 11500000, guid: 5f8bb7d8397cc624b8a1edacb2d7d171, type: 3}
+  m_Name: Ship 5
   m_EditorClassIdentifier: 
-  score: 0
-  musicVolume: 0
-  soundVolume: 0.8589691
-  isMusicOn: 0
-  isSoundOn: 0
-  coin: 8420
-  currentSelectedItemIndex: 8
+  itemName: Ship 5
+  itemImage: {fileID: 21300000, guid: 26d7982ffd37293499383c1d888d674e, type: 3}
+  itemPrice: 50
+  isSelected: 0
+  isBought: 1
