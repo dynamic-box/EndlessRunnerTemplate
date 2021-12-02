@@ -72,6 +72,7 @@ public class ItemController : MonoBehaviour
 
             //Artiq buy event-na ehtiyacimiz yoxdu deye kenarlasdirdiq.
             buyOrSelectButton.onClick.RemoveAllListeners();
+            buyOrSelectButton.onClick.AddListener(onBuyButtonPressed);
 
             //Hemin buttonu metodla secirik.
             onSelectButtonPressed();

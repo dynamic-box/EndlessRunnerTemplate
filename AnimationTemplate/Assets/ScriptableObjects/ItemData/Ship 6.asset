@@ -16,4 +16,4 @@ MonoBehaviour:
   itemImage: {fileID: 21300000, guid: df85fb8c8c72d79448ed40cfad703a95, type: 3}
   itemPrice: 60
   isSelected: 0
-  isBought: 1
+  isBought: 0

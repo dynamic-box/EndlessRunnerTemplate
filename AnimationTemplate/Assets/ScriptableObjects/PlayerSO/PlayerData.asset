@@ -17,5 +17,5 @@ MonoBehaviour:
   soundVolume: 0.8589691
   isMusicOn: 0
   isSoundOn: 0
-  coin: 8420
-  currentSelectedItemIndex: 8
+  coin: 8200
+  currentSelectedItemIndex: 2
